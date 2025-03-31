@@ -3,7 +3,7 @@ import React from 'react'
 
 export const LoginPage = () => {
   return (
-    <Grid 
+    <Grid2 
       container spacing={0}
       direction=' column '
       alignItems=' center '
@@ -11,7 +11,7 @@ export const LoginPage = () => {
       sx={{ minHeight: '100vh', backgroundColor: 'primary.main', padding: 4}}
     >
 
-      <Grid item
+      <Grid2 item
         className='box-shadow'
         xs={ 3 }
         sx={{ backgroundColor: 'white', padding: 3, borderRadius: 2 }}
@@ -30,7 +30,7 @@ export const LoginPage = () => {
           </Grid2>
         </form>
 
-        </Grid>
-    </Grid>
+        </Grid2>
+    </Grid2>
   )
 }
